@@ -1,0 +1,52 @@
+
+.postsColumn {
+    width: 300px;
+    left: 0;
+    border: 2px solid purple;
+    padding: 10px;
+    margin: 10px;
+}
+.singlePosts {
+    width: 270px;
+    border: 2px solid purple;
+    padding: 10px;
+    text-overflow: ellipsis;
+}
+
+.commentsColumn {
+    position: sticky;
+    width: 300px;
+    float: left;
+    border: 2px solid purple;
+    padding: 10px;
+    margin: 10px;
+}
+
+.singleComments {
+    width: 270px;
+    border: 2px solid purple;
+    padding: 10px;
+    text-overflow: ellipsis;
+}
+
+.close {
+    float: right;
+}
+
+h1,
+h3,
+h5,
+ul,
+li input {
+    font-family: "Quicksand", sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+}
+
+text-overflow: ellipsis;
